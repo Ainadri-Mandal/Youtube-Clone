@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar" >
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="./img/logo.PNG" class="logo" alt="">
+
+        <div class="search-box">
+            <input type="text" placeholder="Search" name="" id="" class="search-bar">
+            <button class="search-btn">
+                <img src="img/search.PNG" alt="">
+            </button>
+        </div>
+
+        <div class="user-options">
+            <img src="img/video.PNG" class="icon" alt="">
+            <img src="img/grid.PNG" class="icon" alt="">
+            <img src="img/bell.PNG" class="icon" alt="">
+            <div class="user-dp">
+                <img src="img/profile-pic.jpg" alt="">
+            </div>
+        </div>
+    </nav>
+    
+    <!-- SIDE-BAR -->
+
+    <div class="side-bar">
+        <a href="#" class="links">
+            <img src="./img/home.PNG" alt="">Home
+        </a>
+        <a href="#" class="links">
+            <img src="./img/explore.PNG" alt="">Explore
+        </a>
+        <a href="#" class="links">
+            <img src="./img/subscription.PNG" alt="">Subscription
+        </a>
+
+        <hr class="separater">
+        <a href="#" class="links">
+            <img src="./img/library.PNG" alt="">Library
+        </a>
+        <a href="#" class="links">
+            <img src="./img/history.PNG" alt="">History
+        </a>
+        <a href="#" class="links">
+            <img src="./img/your-video.PNG" alt="">Your Video
+        </a>
+        <a href="#" class="links">
+            <img src="./img/watch-later.PNG" alt="">Watch Later
+        </a>
+        <a href="#" class="links">
+            <img src="./img/liked video.PNG" alt="">Like Video
+        </a>
+        <a href="#" class="links">
+            <img src="./img/show more.PNG" alt="">Show More
+        </a>
+    </div>
+    
+    <!-- Filter-->
+
+    <div class="filters">
+        <button class="filter-options active">all</button>
+        <button class="filter-options active">HTML</button>
+        <button class="filter-options active">CSS</button>
+        <button class="filter-options active">JavaScript</button>
+        <button class="filter-options active">Web Development</button>
+        <button class="filter-options active">Python</button>
+        <button class="filter-options active">JSON</button>
+        <button class="filter-options active">Frontend</button>
+    </div>
+
+    <!-- Video container-->
+
+    <div class="video-container" id="ytvideo">
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
